@@ -1,0 +1,62 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	margin: 0;
+}
+.title{
+	border: 2px solid black;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	text-shadow: 2px 5px 3px black;
+}
+#desc{
+	padding: 20px;
+	line-height: 35px;
+}
+ul li{
+	font-size: 25px;
+	color: red;
+	text-transform: capitalize;
+	border-bottom: 2px dotted green;
+	padding: 10px;
+}
+nav{
+	box-shadow: 2px 5px 3px black;
+	position: fixed;
+	width: 100%;
+	box-sizing: border-box;
+	top: 0;
+	z-index: 20000;
+}
+.table{
+	background-color: #a36;
+}
+.league{
+	background-color: rgba(20, 59, 170, 0.5);
+}
+.fav{
+	background-color: hsla(250, 50%, 70%, 0.8);
+}
+.banner{
+	/*background: url(images/3.jpg);*/
+	height: 500px;
+	background-position: center;
+	background-attachment: fixed;
+	/*background: linear-gradient(rgba(100, 99, 140, 0.4),rgba(200, 110, 20, 0.7));*/
+	/*background: radial-gradient(rgba(200, 100, 50, 0.9),hsla(110, 50%, 20%, 0.2));*/
+    /*background: conic-gradient(rgb(150, 180, 200),rgba(190, 70, 140, 0.2),hsl(230, 20%, 70%),hsla(300, 100%, 10%, 0.7),rgba(189, 89, 125, 0.55));*/
+    /*background: conic-gradient(red,blue,pink,yellow,orange);*/
+    background: linear-gradient(rgba(100, 150, 199, 0.6),rgb(200, 109, 159)),url(images/3.jpg);
+    position: relative;
+}
+.banner h2{
+        position: absolute;
+        right: 30%;
+        bottom: 250px;
+        left: 30%;
+        top: 250px;
+}

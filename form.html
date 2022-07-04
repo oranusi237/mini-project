@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body bgcolor="black">
+	<font color="white">
+		<nav>
+		<a href="index.html">HOME</a>
+		<a href="about.html">ABOUT</a>
+		<a href="table.html">TABLE</a>
+        <a href="form.html">FORM</a>
+		<a href="league.html">LEAGUE TABLE</a>
+		<a href="contact.html">CONTACT</a>
+	</nav>
+  <h1>registration form</h1>
+  <form method="post">
+  	<p>
+  		<label for="fn">firstname</label>
+  		<input type="text" name="fname" placeholder="eg john" id="fn" required>
+  	</p>
+  	<p>
+  		<label for="ln">last name</label>
+  		<input type="text" name="ln" placeholder="eg oranusi" id="ln">
+  	</p>
+  	<p>
+  		<label for="pn">phone number</label>
+  		<input type="number" name="pn" placeholder="eg 08077775432" id="pn">
+  	</p>
+  	<p>
+  		<label for="E">email</label>
+  		<input type="email" name="E" placeholder="eg kelvinmark48@gmail.com" id="E">
+  	</p>
+  	<p>
+  		<label for="P">password</label>
+  		<input type="password" name="P" placeholder="1234" id="P">
+  	</p>
+  	<p>
+  		<label for="db">date of birth</label>
+  		<input type="date" name="db" id="db">
+  	</p>
+  	<p>
+  		<label for="uc">upload CV</label>
+  		<input type="file" name="uc" id="uc">
+  	</p>
+  	<p>
+  		<label>Gender</label>
+  		<input type="radio" name="Gender" id="Gender">male
+  		<input type="radio" name="Gender" id="Gender">female
+  	</p>
+  	<p>
+  		<label>age</label>
+  		<input type="number" name="age" max="35" min="18" id="age">
+  	</p>
+  	<p>
+  		<label>month</label>
+  		<input type="month" name="month">
+  	</p>
+  	<p>
+  		<label>time</label>
+  		<input type="time" name="time">
+  	</p>
+  	<p>
+  		<label>week</label>
+  		<input type="week" name="week">
+  	</p>
+  	<p>
+  		<label>range</label>
+  		<input type="range" name="range">
+  	</p>
+  	<p>
+  		<label>colour</label>
+  		<input type="color" name="colour">
+  	</p>
+  	<p>
+  		<label>address</label>
+  		<textarea placeholder="enter your address" rows="30" cols="60"></textarea>
+  	</p>
+  		<p>
+  			<label>state of origin</label>
+  			<select>
+  				<option>choose state</option>
+  				<option>abuja</option>
+  				<option>anambra</option>
+  				<option>benue</option>
+  				<option>nassarawa</option>
+  				<option>enugu</option>
+  				<option>kaduna</option>
+  			</select>
+  		</p>
+  		<p>
+  			<label>do you agree?</label>
+  			<input type="checkbox" name="dya">
+  		</p>
+  		<p>
+  			<button type="submit">submit</button>
+  			<input type="reset" name="submit">
+  		</p>
+  </form>
+</font>
+  <footer>
+       <p>&copy; 2022</p>
+       <p>built by sam</p>
+   </footer>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>flex</title>
+</head>
+<body>
+    <div class="container">
+    	<div class="item">1</div>
+    	<div>2</div>
+    	<div><div class="Hello">hello</div></div>
+    	<div>4</div>
+    	<div>5</div>
+    </div>
+    <style type="text/css">
+    	.container{
+    		display: flex;
+    		/*flex-direction: column-reverse;*/
+    		justify-content: space-between;
+    		height: 220px;
+    		align-items: center;
+    		gap: 30px;
+    	}
+    	.container div{
+            background: tomato;
+            flex: 1;
+            /*flex-basis: 25%;*/
+    	}
+    	.item{
+    		align-self: flex-end;
+    		order: 4;
+    	}
+    	.Hello{
+    		align-self: flex-end;
+    	}
+    </style>
+</body>
+</html>

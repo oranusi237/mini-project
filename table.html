@@ -1,0 +1,203 @@
+		<!DOCTYPE html>
+		<html>
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<title>table</title>
+			<link rel="stylesheet" type="text/css" href="Style.css">
+		</head>
+		<body bgcolor="papayawhip">
+		<nav>
+		<a href="index.html">HOME</a>
+		<a href="about.html">ABOUT</a>
+		<a href="table.html">TABLE</a>
+        <a href="form.html">FORM</a>
+		<a href="league.html">LEAGUE TABLE</a>
+		<a href="contact.html">CONTACT</a>
+	</nav>
+	<table border="2" width="40%">
+		<thead>
+			<tr>
+				<th>S/N</th>
+				<th>SUBJECT</th>
+				<th>CA1</th>
+				<th>CA2</th>
+				<th>EXAM</th>
+				<th>TOTAL</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>ENGLISH</td>
+				<td>15</td>
+				<td>20</td>
+				<td>45</td>
+				<td>80</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>MATHS</td>
+				<td>10</td>
+				<td>18</td>
+				<td>50</td>
+				<td>78</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>CIVIC</td>
+				<td>20</td>
+				<td>8</td>
+				<td>39</td>
+				<td>68</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>BIOLOGY</td>
+				<td>20</td>
+				<td>19</td>
+				<td>55</td>
+				<td>94</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>CHEMSTRY</td>
+				<td>12</td>
+				<td>15</td>
+				<td>48</td>
+				<td>75</td>
+			</tr>
+		</tbody>
+	</table>
+	<h1>
+		using colspam for multicolumn heading
+	</h1>
+	<table>
+		<caption><b>life expectancy by current age</b></caption>
+		<thead>
+			<tr>
+				<th colspan="2">65</th>
+				<th colspan="2">40</th>
+				<th colspan="2">20</th>
+			</tr>
+			<tr>
+				<th>MEN</th>
+				<th>WOMEN</th>
+				<th>MEN</th>
+				<th>WOMEN</th>
+				<th>MEN</th>
+				<th>WOMEN</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>82</td>
+				<td>85</td>
+				<td>78</td>
+				<td>22</td>
+				<td>77</td>
+				<td>81</td>
+			</tr>
+		</tbody>
+	</table>
+	<style type="text/css">
+		table{
+			border: 2px solid rgb(200, 200, 200);
+			border-collapse: collapse;
+			letter-spacing: 1px;
+			font-size: 1em;
+			width: 500px;
+		}
+		th,td{
+			border: 1px solid rgb(190, 190, 190);
+		}
+		td{
+			text-align: center;
+		}
+	</style>
+	<h2>
+		using colspam for single row titling 
+	</h2>
+	<table class="table">
+		<caption><b>invoice</b></caption>
+		<thead>
+			<tr>
+				<th>item/desc</th>
+				<th>qtr</th>
+				<th>@</th>
+				<th>price</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th>paperclip (BOX)</th>
+				<td>100</td>
+				<td>1.15</td>
+				<td>115.00</td>
+			</tr>
+			<tr>
+				<th>paper (case)</th>
+				<td>10</td>
+				<td>45.99</td>
+				<td>459.98</td>
+			</tr>
+			<tr>
+				<th>wastepaper baskets</th>
+				<td>2</td>
+				<td>17.99</td>
+				<td>35.98</td>
+			</tr>
+			<tr>
+				<th colspan="3">subtotal</th>
+				<td>610.88</td>
+	
+			</tr>
+			<tr>
+				<th colspan="2">tax</th>
+				<td>7%</td>
+				<td>42.76</td>
+			</tr>
+			<tr>
+				<th colspan="3">total</th>
+				<td>653.64</td>
+			</tr>
+		</tbody>
+	</table>
+	<table class="fav">
+		<caption><b>favourite and least favourite things</b></caption>
+		<thead>
+			<tr>
+				<th></th> <th></th>
+				<th>bob</th>
+				<th>alice</th>
+			</tr>
+			<tr>
+				<th rowspan="2">favourite</th>
+				<th>color</th>
+				<td>blue</td>
+				<td>purple</td>
+			</tr>
+			<tr>
+				<th>flavor</th>
+				<td>banana</td>
+				<td>chocolate</td>
+			</tr>
+			<tr>
+				<th rowspan="2">least favourite</th>
+				<th>color</th>
+				<td>yellow</td>
+				<td>pink</td>
+			</tr>
+			<tr>
+				<th>flavor</th>
+				<td>mint</td>
+				<td>walnut</td>
+			</tr>
+		</thead>
+	</table>
+	  <footer>
+       <p>&copy; 2022</p>
+       <p>built by sam</p>
+   </footer>
+		</body>
+		</html>
